@@ -402,7 +402,6 @@ public class IfElseIfConstructToSwitch extends Recipe {
                     emptyList(),
                     instanceOf.getClazz().withPrefix(Space.EMPTY),
                     null,
-                    null,
                     singletonList(JRightPadded.build(namedVar))
             );
         }
